@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+**/node_modules/
+**/jspm_packages/
+
+# Build outputs
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/.parcel-cache/
+
+# Testing
+coverage/
+*.lcov
+
+# Environment files
+.env
+.env.*
+*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Misc archives
+*.tgz
+*.tar.gz
+*.zip
